@@ -3,10 +3,10 @@ import Navbar from "./Navbar";
 
 function App() {
 	return (
-		<div className="flex flex-col min-h-screen max-w-screen-xl items-center">
+		<section className="flex flex-col min-h-screen w-screen items-center pl-[5%]">
 			<Navbar/>
 			<Outlet/>
-		</div>
+		</section>
 	);
 }
 
