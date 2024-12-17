@@ -15,7 +15,7 @@ const Home = () => {
 					experience!
 				</p>
 			</article>
-			<button className="self-end rounded-full h-52 w-52 bg-red-500 uppercase hover:shadow-[10px] shadow-black">explore</button>
+			<button className="self-end rounded-full h-52 w-52 bg-red-500 uppercase hover:shadow-custom text-3xl">explore</button>
 		</section>
 	);
 };
