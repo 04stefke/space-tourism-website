@@ -3,10 +3,10 @@ import logo from "./assets/shared/logo.svg";
 import { Link } from "react-router-dom";
 const Navbar = () => {
 	return (
-		<header className="flex w-full justify-between items-center lg:pt-10 fixed top-0">
+		<header className="flex w-full justify-between items-center lg:pt-10 fixed top-0 text-white">
 			<img src={logo} alt="logo" />
       
-			<nav className=" h-24 px-24 bg-black/30 ">
+			<nav className=" h-20 px-28 backdrop-blur-3xl bg-white/[0.02] ">
 				<ul className="flex items-center gap-5 lg:gap-10 h-full">
 					<li className="uppercase ">
 						<Link to="/">

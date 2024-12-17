@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
 	return (
-		<section className="flex max-w-[80%] justify-between ">
+		<section className="flex max-w-[80%] justify-between text-white ">
 			<article className="flex flex-col gap-10 w-1/3">
 				<h1 className="text-2xl">
 					So, you want to travel to <br />
@@ -15,7 +15,7 @@ const Home = () => {
 					experience!
 				</p>
 			</article>
-			<button className="self-end rounded-full h-52 w-52 bg-red-500 uppercase hover:shadow-custom text-3xl">explore</button>
+			<button className="self-end rounded-full h-52 w-52 bg-white uppercase hover:shadow-custom text-3xl text-black">explore</button>
 		</section>
 	);
 };
