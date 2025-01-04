@@ -3,10 +3,10 @@ import Navbar from "./Navbar";
 
 function App() {
 	return (
-		<section className="flex flex-col min-h-screen w-screen items-center justify-between gap-10 pl-[5%] pb-5 homeBg">
+		<section className="flex flex-col min-h-screen w-screen items-center md:justify-between gap-10 px-[5%] pb-5 homeBg">
 			<Navbar />
 			<Outlet />
-			<p className="text-sm ">�� 2023 Space Travel. All rights reserved.</p>
+			<p className="text-sm hidden md:block ">�� 2023 Space Travel. All rights reserved.</p>
 		</section>
 	);
 }
