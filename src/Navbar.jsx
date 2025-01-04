@@ -34,22 +34,22 @@ const Navbar = () => {
 				<i className="bx bx-x lg:hidden block cursor-pointer text-5xl self-end mb-10" onClick={() => setIsMenuOpen(!isMenuOpen)}></i>
 				<li className="uppercase ">
 					<Link to="/">
-						<span className="font-bold pr-2">01</span> Home
+						<span className="font-bold pr-2">00</span> Home
 					</Link>
 				</li>
 				<li className="uppercase ">
 					<Link to="/destination">
-						<span className="font-bold pr-2">02</span> Destination
+						<span className="font-bold pr-2">01</span> Destination
 					</Link>
 				</li>
 				<li className="uppercase ">
 					<Link to="/crew">
-						<span className="font-bold pr-2">03</span> Crew
+						<span className="font-bold pr-2">02</span> Crew
 					</Link>
 				</li>
 				<li className="uppercase ">
 					<Link to="/technology">
-						<span className="font-bold pr-2">04</span> Technology
+						<span className="font-bold pr-2">03</span> Technology
 					</Link>
 				</li>
 			</ul>
