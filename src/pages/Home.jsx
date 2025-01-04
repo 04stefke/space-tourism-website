@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
 	return (
-		<section className="flex max-w-[90%] 2xl:w-full items-center text-center 2xl:flex-row flex-col md:gap-10 justify-between text-white ">
+		<section className=" flex max-w-[90%] 2xl:w-full items-center text-center 2xl:flex-row flex-col md:gap-10 justify-between text-white ">
 			<article className="flex flex-col items-center gap-5 md:gap-10 px-5 2xl:px-0 mb-10 md:mb-52 2xl:mb-0 ">
 				<h3 className="text-2xl md:text-4xl">
 					So, you want to travel to <br />
