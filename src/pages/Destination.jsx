@@ -18,7 +18,7 @@ const Destination = () => {
 				/>
 			</div>
 			{/* Render a list of destinations */}
-			<div className="flex flex-col items-center lg:items-start justify-center lg:max-w-[50%] mt-10">
+			<div className="flex flex-col items-center lg:items-start justify-center lg:max-w-[50%] mt-10 gap-10">
 				<ul className="flex items-center justify-center lg:items-start gap-5 sm:gap-10">
 					{destinations.map((destination) => (
 						<li
