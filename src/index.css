@@ -11,5 +11,9 @@
 }
 
 .navbarHamburgerDropdown {
-	@apply absolute lg:hidden top-0 right-0 max-[450px]:w-[80%] min-[450px]:w-[60%] min-[740px]:w-[40%] backdrop-blur-3xl bg-white/[0.02] min-h-[100%]  flex flex-col items-start gap-8 text-lg transform transition-transform   pt-10 px-10;
+	@apply z-10 absolute lg:hidden top-0 right-0 max-[450px]:w-[80%] min-[450px]:w-[60%] min-[740px]:w-[40%] backdrop-blur-3xl bg-white/[0.02] min-h-[100%]  flex flex-col items-start gap-8 text-lg transform transition-transform   pt-10 px-10;
+}
+
+.active{
+	@apply after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white
 }
