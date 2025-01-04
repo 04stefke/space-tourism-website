@@ -7,9 +7,9 @@
 }
 
 .navbarDefault {
-	@apply hidden lg:flex h-20 px-28 backdrop-blur-3xl bg-white/[0.02] items-center gap-5 lg:gap-10 
+	@apply hidden lg:flex h-20 px-28 backdrop-blur-3xl bg-white/[0.02] items-center gap-5 lg:gap-10;
 }
 
-.navbarHamburgerDropdown{
-	@apply absolute lg:hidden top-0 right-0 w-1/2  backdrop-blur-3xl bg-white/[0.02] h-full  flex flex-col items-start gap-6 text-lg transform transition-transform pl-10  
+.navbarHamburgerDropdown {
+	@apply absolute lg:hidden top-0 right-0 max-[450px]:w-[80%] min-[450px]:w-[60%] min-[740px]:w-[40%] backdrop-blur-3xl bg-white/[0.02] min-h-[100%]  flex flex-col items-start gap-8 text-lg transform transition-transform   pt-10 px-10;
 }

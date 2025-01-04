@@ -8,8 +8,7 @@ const Navbar = () => {
 	return (
 		<header className="flex w-full justify-between items-center pt-10  text-white">
 			<img src={logo} alt="logo" />
-			<ul className={` navbarHamburgerDropdown ${isMenuOpen ? 'right-0' : 'left-[-500px]'}`}>
-				<i className="bx bx-x lg:hidden block cursor-pointer text-5xl self-end" onClick={() => setIsMenuOpen(!isMenuOpen)}></i>
+			<ul className='navbarDefault'>
 				<li className="uppercase ">
 					<Link to="/">
 						<span className="lg:font-bold lg:pr-2">01</span> Home
@@ -31,10 +30,30 @@ const Navbar = () => {
 					</Link>
 				</li>
 			</ul>
+			<ul className={` navbarHamburgerDropdown ${isMenuOpen ? 'right-0' : 'left-[-500px]'}`} >
+				<i className="bx bx-x lg:hidden block cursor-pointer text-5xl self-end mb-10" onClick={() => setIsMenuOpen(!isMenuOpen)}></i>
+				<li className="uppercase ">
+					<Link to="/">
+						<span className="font-bold pr-2">01</span> Home
+					</Link>
+				</li>
+				<li className="uppercase ">
+					<Link to="/destination">
+						<span className="font-bold pr-2">02</span> Destination
+					</Link>
+				</li>
+				<li className="uppercase ">
+					<Link to="/crew">
+						<span className="font-bold pr-2">03</span> Crew
+					</Link>
+				</li>
+				<li className="uppercase ">
+					<Link to="/technology">
+						<span className="font-bold pr-2">04</span> Technology
+					</Link>
+				</li>
+			</ul>
 			<i className="bx bx-menu lg:hidden block cursor-pointer text-5xl" onClick={() => setIsMenuOpen(!isMenuOpen)}></i>
-
-
-
 		</header>
 	);
 };
