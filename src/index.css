@@ -5,3 +5,11 @@
 .homeBg {
 	@apply bg-[url('./assets/home/background-home-mobile.jpg')] sm:bg-[url('./assets/home/background-home-tablet.jpg')] lg:bg-[url('./assets/home/background-home-desktop.jpg')] bg-cover bg-center;
 }
+
+.navbarDefault {
+	@apply hidden lg:flex h-20 px-28 backdrop-blur-3xl bg-white/[0.02] items-center gap-5 lg:gap-10 
+}
+
+.navbarHamburgerDropdown{
+	@apply absolute lg:hidden top-0 right-0 w-1/2  backdrop-blur-3xl bg-white/[0.02] h-full  flex flex-col items-start gap-6 text-lg transform transition-transform pl-10  
+}
