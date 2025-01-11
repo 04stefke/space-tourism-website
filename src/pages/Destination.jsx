@@ -35,7 +35,7 @@ const Destination = () => {
 				<div className="flex flex-col items-center text-center lg:text-start gap-10 max-w-[70%]">
 					<div className="border-b-2">
 						<h1 className="text-5xl mb-8">{selectedDestination.name}</h1>
-						<p className="text-sm pb-8 ">{selectedDestination.description}</p>
+						<p className="text-sm pb-8 capitalize ">{selectedDestination.description}</p>
 					</div>
 					<div className=" w-full flex flex-row items-center justify-center gap-5">
 						<div>
