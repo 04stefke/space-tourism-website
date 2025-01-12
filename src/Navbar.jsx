@@ -11,22 +11,22 @@ const Navbar = () => {
 			<ul className='navbarDefault'>
 				<li className="uppercase ">
 					<Link to="/">
-						<span className="lg:font-bold lg:pr-2">01</span> Home
+						<span className="lg:font-bold lg:pr-2">00</span> Home
 					</Link>
 				</li>
 				<li className="uppercase ">
 					<Link to="/destination">
-						<span className="lg:font-bold lg:pr-2">02</span> Destination
+						<span className="lg:font-bold lg:pr-2">01</span> Destination
 					</Link>
 				</li>
 				<li className="uppercase ">
 					<Link to="/crew">
-						<span className="lg:font-bold lg:pr-2">03</span> Crew
+						<span className="lg:font-bold lg:pr-2">02</span> Crew
 					</Link>
 				</li>
 				<li className="uppercase ">
 					<Link to="/technology">
-						<span className="lg:font-bold lg:pr-2">04</span> Technology
+						<span className="lg:font-bold lg:pr-2">03</span> Technology
 					</Link>
 				</li>
 			</ul>
