@@ -6,6 +6,15 @@
 	@apply bg-[url('./assets/home/background-home-mobile.jpg')] sm:bg-[url('./assets/home/background-home-tablet.jpg')] lg:bg-[url('./assets/home/background-home-desktop.jpg')] bg-cover bg-center;
 }
 
+.navbarActive {
+	/* @apply after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white text-white; */
+	@apply text-white after:absolute after:bottom-[-23px] after:left-0 after:w-full after:h-[2px] after:bg-white
+}
+.navbarSmallActive {
+	/* @apply after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white text-white; */
+	@apply text-white after:absolute after:bottom-0 after:right-0 after:w-5 after:h-[2px] after:bg-white
+}
+
 .navbarDefault {
 	@apply hidden lg:flex h-20 px-28 backdrop-blur-3xl bg-white/[0.02] items-center gap-5 lg:gap-10;
 }
@@ -14,14 +23,14 @@
 	@apply z-10 absolute lg:hidden top-0 right-0 max-[450px]:w-[80%] min-[450px]:w-[60%] min-[740px]:w-[40%] backdrop-blur-3xl bg-white/[0.02] min-h-[100%]  flex flex-col items-start gap-8 text-lg transform transition-transform   pt-10 px-10;
 }
 
-.active{
-	@apply after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white text-white
+.active {
+	@apply after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white text-white;
 }
 
 .technologyBtn {
-	@apply text-gray-400 font-bold border border-gray-600 rounded-full w-12 h-12 cursor-pointer text-lg hover:border-white hover:text-white
+	@apply text-gray-400 font-bold border border-gray-600 rounded-full w-12 h-12 cursor-pointer text-lg hover:border-white hover:text-white;
 }
 
 .technologyBtnActive {
-	@apply text-black font-bold border border-white rounded-full w-12 h-12 cursor-pointer bg-white text-lg
+	@apply text-black font-bold border border-white rounded-full w-12 h-12 cursor-pointer bg-white text-lg;
 }
