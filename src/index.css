@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 .homeBg {
-	@apply bg-home sm:bg-homeSm lg:bg-homeLg bg-cover bg-center;
+	@apply bg-home md:bg-homeSm xl:bg-homeLg bg-cover bg-center;
 }
 .destinationBg {
-	@apply bg-destination sm:bg-destinationSm lg:bg-destinationLg bg-cover bg-center;
+	@apply bg-destination md:bg-destinationSm xl:bg-destinationLg bg-cover bg-center;
 }
 .crewBg {
-	@apply bg-crew sm:bg-crewSm lg:bg-crewLg bg-cover bg-center;
+	@apply bg-crew md:bg-crewSm xl:bg-crewLg bg-cover bg-center;
 }
 .technologyBg {
-	@apply bg-technology sm:bg-technologySm lg:bg-technologyLg bg-cover bg-center;
+	@apply bg-technology md:bg-technologySm xl:bg-technologyLg bg-cover bg-center;
 }
 
 .navbarActive {
