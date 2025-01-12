@@ -15,11 +15,11 @@
 }
 
 .active{
-	@apply after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white
+	@apply after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white text-white
 }
 
 .technologyBtn {
-	@apply text-white font-bold border border-white rounded-full w-12 h-12 cursor-pointer text-lg
+	@apply text-gray-400 font-bold border border-gray-600 rounded-full w-12 h-12 cursor-pointer text-lg hover:border-white hover:text-white
 }
 
 .technologyBtnActive {

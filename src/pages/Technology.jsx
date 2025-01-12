@@ -4,15 +4,15 @@ const Techonolgy = () => {
 	const technology = data.technology;
 	const [selectedTechnology, setSelectedTechnology] = useState(technology[0]);
 	return (
-		<section className="text-white flex flex-col items-center justify-center gap-10 ">
-			<h3 className="text-lg mb-5 uppercase xl:self-start ">
-				<span className="pr-5">03</span>Space Launch 101
+		<section className="text-gray-400 flex flex-col items-center justify-center gap-10 ">
+			<h3 className="text-lg mb-5 uppercase xl:self-start text-white">
+				<span className="pr-5 text-gray-400">03</span>Space Launch 101
 			</h3>
 			<div className="xl:grid grid-cols-2 grid-rows-1 place-items-center">
 				<img
 					src={selectedTechnology.images.portrait}
 					alt={selectedTechnology.name}
-					className="h-[300px] w-[500px] xl:h-full xl:w-full  col-start-2 row-start-2 mb-5 "
+					className="h-[300px] w-[500px] xl:h-[650px] xl:w-[800px] col-start-2 row-start-2 mb-5 lg:rounded-xl "
 				/>
 				<div className="flex flex-col gap-5 xl:flex-row col-start-1 row-start-2">
 					<ul className="flex items-center xl:flex-col justify-center gap-5 ">
@@ -36,7 +36,7 @@ const Techonolgy = () => {
 					</ul>
 					<div className="flex flex-col items-center justify-center gap-5 xl:items-start">
 						<h3 className="text-xl uppercase">The Terminology...</h3>
-						<h1 className="text-3xl uppercase">{selectedTechnology.name}</h1>
+						<h1 className="text-3xl uppercase text-white">{selectedTechnology.name}</h1>
 						<p className="text-lg md:max-w-[70%] text-center xl:text-start xl:max-w-[50%] ">
 							{selectedTechnology.description}
 						</p>
