@@ -17,3 +17,11 @@
 .active{
 	@apply after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white
 }
+
+.technologyBtn {
+	@apply text-white font-bold border border-white rounded-full w-12 h-12 cursor-pointer text-lg
+}
+
+.technologyBtnActive {
+	@apply text-black font-bold border border-white rounded-full w-12 h-12 cursor-pointer bg-white text-lg
+}
