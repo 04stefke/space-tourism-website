@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 .homeBg {
-	@apply bg-[url('./assets/home/background-home-mobile.jpg')] sm:bg-[url('./assets/home/background-home-tablet.jpg')] lg:bg-[url('./assets/home/background-home-desktop.jpg')] bg-cover bg-center;
+	@apply bg-home sm:bg-homeSm lg:bg-homeLg bg-cover bg-center;
+}
+.destinationBg {
+	@apply bg-destination sm:bg-destinationSm lg:bg-destinationLg bg-cover bg-center;
+}
+.crewBg {
+	@apply bg-crew sm:bg-crewSm lg:bg-crewLg bg-cover bg-center;
+}
+.technologyBg {
+	@apply bg-technology sm:bg-technologySm lg:bg-technologyLg bg-cover bg-center;
 }
 
 .navbarActive {
