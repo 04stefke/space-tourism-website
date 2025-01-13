@@ -12,7 +12,7 @@ const Navbar = () => {
 				<li className="uppercase relative ">
 					<NavLink
 						className={({ isActive }) =>
-							` ${isActive ? "navbarActive" : "text-gray-400"}`
+							` ${isActive ? "navbarActive" : "navbarSmallDefault"}`
 						}
 						to="/"
 					>
@@ -22,7 +22,7 @@ const Navbar = () => {
 				<li className="uppercase relative ">
 					<NavLink
 						className={({ isActive }) =>
-							` ${isActive ? "navbarActive" : "text-gray-400"}`
+							` ${isActive ? "navbarActive" : "navbarSmallDefault"}`
 						}
 						to="/destination"
 					>
@@ -32,7 +32,7 @@ const Navbar = () => {
 				<li className="uppercase relative ">
 					<NavLink
 						className={({ isActive }) =>
-							` ${isActive ? "navbarActive" : "text-gray-400"}`
+							` ${isActive ? "navbarActive" : "navbarSmallDefault"}`
 						}
 						to="/crew"
 					>
@@ -42,7 +42,7 @@ const Navbar = () => {
 				<li className="uppercase relative ">
 					<NavLink
 						className={({ isActive }) =>
-							` ${isActive ? "navbarActive" : "text-gray-400"}`
+							` ${isActive ? "navbarActive" : "navbarSmallDefault"}`
 						}
 						to="/technology"
 					>

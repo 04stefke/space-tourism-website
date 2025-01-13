@@ -24,6 +24,11 @@
 	@apply text-white after:absolute after:bottom-0 after:right-0 after:w-5 after:h-[2px] after:bg-white
 }
 
+.navbarSmallDefault {
+	@apply text-gray-300 hover:text-white cursor-pointer hover:after:absolute hover:after:bottom-[-23px] hover:after:right-0 hover:after:w-full hover:after:h-[2px] hover:after:bg-white
+}
+
+
 .navbarDefault {
 	@apply hidden lg:flex h-20 px-28 backdrop-blur-3xl bg-white/[0.02] items-center gap-5 lg:gap-10;
 }
